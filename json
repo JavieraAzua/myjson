@@ -1,0 +1,147 @@
+{
+  "docentes": [
+    {
+      "id": 1,
+      "nombre": "Blanca White",
+      "role": "Docente",
+      "password": "Duoc2023-1",
+      "email": "blanca.w@profesorduoc.cl",
+      "palabra": "perrito",
+      "Asignaturas": [
+        {
+          "nombreAsignatura": "Programación Aplicaciones Móviles",
+          "seccion": "015V",
+          "horasSemanales": "5",
+          "año": "2023",
+          "semestre": "Primer Semestre"
+        },
+        {
+          "nombreAsignatura": "Programación Web",
+          "seccion": "025V",
+          "horasSemanales": "6",
+          "año": "2023",
+          "semestre": "Primer Semestre"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Duke Silva",
+      "email": "duke.s@profesorduoc.cl",
+      "password": "Duoc2023-2",
+      "palabra": "matematicas",
+      "Asignaturas": [
+        {
+          "nombreAsignatura": "Estadistica Descriptiva",
+          "seccion": "040V",
+          "horasSemanales": "6",
+          "año": "2023",
+          "semestre": "Primer Semestre"
+        },
+        {
+          "nombreAsignatura": "Matematica Aplicasa",
+          "seccion": "030V",
+          "horasSemanales": "6",
+          "año": "2023",
+          "semestre": "Primer Semestre"
+        }
+      ]
+    }
+  ],
+  "alumno": [
+    {
+      "id": 1,
+      "nombre": "Sebasthian Silva",
+      "rut": "19094330-5",
+      "role": "Alumno",
+      "password": "Duoc2023-3",
+      "email": "seba.silva@alumnoduoc.cl",
+      "sede": "Maipú",
+      "jornada": "Vespertino",
+      "palabra": "nieve"
+    },
+    {
+      "id": 2,
+      "nombre": "Javiera Azúa",
+      "rut": "18582719-4",
+      "email": "javi.azua@alumnoduoc.cl",
+      "password": "Duoc2023-4",
+      "sede": "Maipú",
+      "jornada": "Vespertino",
+      "palabra": "verano"
+    },
+    {
+      "id": 3,
+      "nombre": "Juan vasquez",
+      "rut": "155555452",
+      "role": "Alumno",
+      "password": "Duoc1234",
+      "email": "juan@duoc.cl",
+      "sede": "Maipu",
+      "jornada": "Diurno",
+      "palabra": "invierno"
+    },
+    {
+      "nombre": "Sandra Bustamante",
+      "rut": "12985469-7",
+      "email": "sandra@gmail.com",
+      "password": "123456789",
+      "sede": "San Joaquín",
+      "jornada": "diurno",
+      "palabra": "mono",
+      "id": 4
+    }
+  ],
+  "CodigosQr": [
+    {
+      "nombre": "Blanca White",
+      "email": "blanca.w@profesorduoc.cl",
+      "asignatura": "Programación Web - 025V",
+      "fecha": "2023-11-22",
+      "id": 1
+    },
+    {
+      "nombre": "Blanca White",
+      "email": "blanca.w@profesorduoc.cl",
+      "asignatura": "Programación Aplicaciones Móviles - 015V",
+      "fecha": "2023-11-21",
+      "id": 2
+    },
+    {
+      "nombre": "Blanca White",
+      "email": "blanca.w@profesorduoc.cl",
+      "asignatura": "Programación Web - 025V",
+      "fecha": "2023-11-29",
+      "id": 3
+    },
+    {
+      "nombre": "Blanca White",
+      "email": "blanca.w@profesorduoc.cl",
+      "asignatura": "Programación Web - 025V",
+      "fecha": "2023-12-13",
+      "id": 4
+    }
+  ],
+  "Asistencia": [
+    {
+      "id": 1,
+      "nombre": "Sebasthian Silva",
+      "asignatura": "Programación Aplicaciones Móviles - 015V-2023-11-21"
+    },
+    {
+      "id": 2,
+      "nombre": "Sebasthian Silva",
+      "asignatura": "Programación Aplicaciones Móviles - 015V-2023-11-21"
+    },
+    {
+      "id": 3,
+      "nombre": "Sebasthian Silva",
+      "asignatura": "Programación Aplicaciones Móviles - 015V-2023-11-21"
+    },
+    {
+      "id": 4,
+      "nombre": "Juan perez",
+      "asignatura": "Programación Aplicaciones Móviles - 015V-2023-11-21"
+    }
+  ]
+}
